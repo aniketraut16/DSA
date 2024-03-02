@@ -15,6 +15,7 @@ void dfs(vector<vector<int>>&adj, vector<int>&v,int x)
     }
 }
 int main()
+// activity chunk 120
 {
     int n,m;
     cin>>n>>m;//enter the number of vertices and number of edges
