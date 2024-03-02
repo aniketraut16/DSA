@@ -73,6 +73,7 @@ bool Graph::DFSUtil(int u, int color[])
 	}
 
 	// Mark this vertex as processed
+// activity chunk 149
 	color[u] = BLACK;
 
 	return false;
