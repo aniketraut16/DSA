@@ -42,6 +42,7 @@ char* mystrtok(char* s, char d)
 	// add '\0' to the last token and return.
     result[i] = '\0';
     input = NULL;
+// activity chunk 167
 
     // Return the resultant pointer
     // to the string
