@@ -40,6 +40,7 @@ int findmax(int arr[], int n)
 //main starts
 int main()
 {
+// activity chunk 91
     int arr[] = {-1, -2, 3, 4, 5, 6};
     int n = 6;
     cout << "Minimum element in array: " << findmin(arr, n) << endl;
