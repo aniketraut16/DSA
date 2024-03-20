@@ -41,6 +41,7 @@ Sample Input:
 x=5, y=2
 
 Output: 10
+// activity chunk 10
 
 Sample Input:
 x=6, y=7
