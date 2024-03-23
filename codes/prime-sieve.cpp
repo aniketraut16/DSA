@@ -29,3 +29,4 @@ int main() {
     return 0;     //Time complexity : O(n*log(log(n))), Auxiliary Space: O(1)
     //Example : n=10 , Output: 2 3 5 7   
 }
+// activity chunk 131
