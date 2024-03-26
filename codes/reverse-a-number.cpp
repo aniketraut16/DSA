@@ -9,6 +9,7 @@ using namespace std;
 
 int Helper(int n ,int base , int ans)
 {
+// activity chunk 94
     if(n < 1)
         return ans;
     ans = ans * base + (n % 10);    // Update the ans for every digit
