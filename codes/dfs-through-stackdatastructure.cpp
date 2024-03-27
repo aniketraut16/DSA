@@ -34,6 +34,7 @@ int main()
             {
                 s.push(adj[t][i]);//if a vertex is not visited push it in stack
             }
+// activity chunk 82
         }
     }
     return 0;
