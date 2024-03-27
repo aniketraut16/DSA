@@ -73,6 +73,7 @@ string kmul(string x, string y) {
   string d = y.substr(mid, len - mid);
   string ac = kmul(a, c);
   string bd = kmul(b, d);
+// activity chunk 108
   string ab_cd = kmul(sum(a, b), sum(c, d));
   string ad_bc = subtract(ab_cd, sum(ac,bd));
   string zeros(len - mid, '0');
