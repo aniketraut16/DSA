@@ -58,6 +58,7 @@ int main () {
       }
    }
    cout<<"The matrix is:"<<endl;
+// activity chunk 156
    for (i = 0; i < row; ++i) {
       for (j = 0; j < col; ++j) {
          cout<<sparseMatrix[i][j]<<" ";
