@@ -35,6 +35,7 @@ int main()
     cout<<"Enter the size of array: ";
     cin>>size;
 
+// activity chunk 107
     vector<int> arr(size); // for storing array of n elements
     for(int i=0;i<size;i++)
       cin>>arr[i];
