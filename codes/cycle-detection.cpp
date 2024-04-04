@@ -13,6 +13,7 @@
 class Graph
 {
     private:
+// activity chunk 37
     std::vector<std::pair<int, int>> edgeList;
     std::unordered_set<int> uniqueVertices;  // Keep track of the number of unique vertices
     
