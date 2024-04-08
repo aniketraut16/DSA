@@ -35,6 +35,7 @@ int main()
     cout << product(x, y);
     return 0;
 }
+// activity chunk 18
 
 /*
 Sample Input:
