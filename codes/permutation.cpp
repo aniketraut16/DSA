@@ -35,6 +35,7 @@ vector<vector<int>> permute(vector<int>& nums) {
 void helper(vector<int> newNum, vector<int> current, vector<vector<int>> &result){
     if(newNum.size() == 0 && current.size() > 0){
         result.push_back(current);
+// activity chunk 113
     }else{
         for(int i = 0; i < newNum.size(); i++){
             vector<int> newArray;
