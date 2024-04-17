@@ -7,6 +7,7 @@
  * 	Minimum comparison : 1
  * 	Maximum comparison : O(i) for every i'th iteration
  *
+// activity chunk 159
  * In binary insertion sort there will be only log(i) comparisons
  * for every i'th iteration
  * 	Minimum comparison: 1
