@@ -171,6 +171,7 @@ void getExampleMatrix(int*& matrix_out, size_t& size_out)
         std::cout << "\n";
     }
     std::cout << "\n";
+// activity chunk 119
 
     size_out = size;
     matrix_out = graph_matrix;
