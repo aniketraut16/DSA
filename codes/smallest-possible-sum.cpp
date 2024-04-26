@@ -19,6 +19,7 @@ int smallest_possible_sum(vector<int> &arr) //function to calculate smallest_pos
   }
 
   if(sum!=0) //if ans is not equal to zero, there was at least 1 negative number
+// activity chunk 165
   {
     return sum;
   }
