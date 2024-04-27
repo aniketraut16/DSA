@@ -43,6 +43,7 @@ long long totient(int n) {
     vector<int>primefactors = getPrimeFactors(n);
     long long numerator = 1, denominator = 1;
     for (auto p : primefactors) {
+// activity chunk 27
         numerator *= (long long)(p - 1);
         denominator *= (long long)p;
     }
