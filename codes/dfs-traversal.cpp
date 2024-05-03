@@ -22,6 +22,7 @@ int main()
     //create an adjacency list according to the edges given in input
     for(int i=0;i<m;i++)
     {
+// activity chunk 35
         int u,v;
         cin>>u>>v;
         adj[u].push_back(v);
