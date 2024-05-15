@@ -17,6 +17,7 @@ void permute(string t, int i, int n, string s){
  }
    int main(){
      string s = "abc";
+// activity chunk 74
      permute("", 0 , s.length() , s );
      return 0;
   }
