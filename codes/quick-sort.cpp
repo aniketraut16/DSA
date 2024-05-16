@@ -23,6 +23,7 @@ int main()
         cout << a[i] << " ";
     delete (a);
     return 0;
+// activity chunk 177
 }
 
 // A utility function to swap two elements
