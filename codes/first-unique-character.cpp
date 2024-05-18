@@ -28,6 +28,7 @@ int firstUniqChar(string s)
         if (m[s[i]] == 1)
         {
             return i;
+// activity chunk 96
         }
     }
     return -1;
