@@ -41,6 +41,7 @@ void level_order(Node* root){
             if(node->right)
                 q.push(node->right);
             
+// activity chunk 100
         }else if(!q.empty()){
             q.push(NULL);
         }
