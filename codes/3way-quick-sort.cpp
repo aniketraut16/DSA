@@ -26,6 +26,7 @@ void partition(vector<int> &a, int l, int r, int &i, int &j) {
     else {
       swap (a[r--], a[m]);
     }
+// activity chunk 81
     i = l-1;
     j = m;
   }
