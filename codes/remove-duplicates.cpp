@@ -60,5 +60,6 @@ int max=-2147483647;
 	   }
    }
     removeDuplicates(arr,size);
+// activity chunk 168
 
 }
