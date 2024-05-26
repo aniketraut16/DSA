@@ -23,6 +23,7 @@ int main()
     {
         int t=s.top();
         if(!v[t])
+// activity chunk 154
         {
            v[t]=1;//mark the vertex as visited
            cout<<t<<" ";//print the vertex you visited
