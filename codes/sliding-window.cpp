@@ -18,6 +18,7 @@ void sliding(string s,string target){
     for(int i=0;i<s.size();i++){
         
         string value = s.substr(i,window_size);
+// activity chunk 59
        
         if(target==value){
             cout<<target<<" found at "<<i<<" and "<<i+window_size<<endl;
