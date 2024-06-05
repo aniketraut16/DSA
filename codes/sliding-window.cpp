@@ -33,6 +33,7 @@ int main() {
     string target="Ipsum";
     string s = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsu";
     sliding(s,target);
+// activity chunk 129
     
     cout<<"\nenter the target string:";
     cin>>target;
