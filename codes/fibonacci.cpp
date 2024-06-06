@@ -26,6 +26,7 @@ public:
             int curr = prev1+prev2;  // the current term is sum of the two terms before it, here prev1 is (i-1)th term and prev2 is (i-2)th term
             prev2=prev1;
             prev1=curr;
+// activity chunk 144
         }
         
         return prev1;  //at the end prev1 will have the value of the nth term, so we will return it
