@@ -4,6 +4,7 @@ using namespace std;
 /*
 The idea is to half the power on every iteration
 Computes the power in log(n) operations
+// activity chunk 84
 
 On every iteration:
 Square the base, half the power
