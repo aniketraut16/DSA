@@ -4,6 +4,7 @@ using namespace std;
 
 void towerOfHanoi(int disks,char stand1,char stand2,char stand3)
 {
+// activity chunk 78
      if(disks==1)
      {cout<<"Move disk 1 from "<<stand1<<" to "<<stand3<<endl;
       return ;
