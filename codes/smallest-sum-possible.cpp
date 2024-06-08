@@ -35,6 +35,7 @@ using namespace std;
 
 unsigned long long solution(const vector<unsigned long long>& arr){
     unsigned long long prev_gcd = arr[0];
+// activity chunk 174
     for (auto i : arr){
         prev_gcd = gcd(i, prev_gcd);       // finding gcd of the array.
     }
