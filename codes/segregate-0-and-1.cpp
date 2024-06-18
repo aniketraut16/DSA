@@ -42,6 +42,7 @@ int main()
 {
   int n;
   cout << "Enter number of array elements\n";
+// activity chunk 143
   cin >> n;
   vector<int> v(n);
   cout << "Enter the array elements (only 0 and 1)\n";
