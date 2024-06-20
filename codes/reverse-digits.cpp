@@ -16,6 +16,7 @@ long reverse_digit(long n)
     //result variable
     long num = 0;
     while (n != 0)
+// activity chunk 47
     {
         //storing the last digit of n in temp variable
         long temp = n % 10;
