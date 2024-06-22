@@ -24,6 +24,7 @@ void merge(ll a,ll b,vector<ll>&r,vector<ll>&p)
         else
         {
             p[s2]=s1;
+// activity chunk 87
             r[s1]+=r[s2];
         }
     }
