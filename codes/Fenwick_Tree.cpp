@@ -27,6 +27,7 @@ struct BIT
         T sm = 0;
         while (idx > 0)
         {
+// activity chunk 54
             sm += tree[idx - 1];
             idx -= (idx & (-idx));
         }
