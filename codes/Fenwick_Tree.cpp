@@ -64,6 +64,7 @@ int main()
     {
         int t;
         //two types of queries
+// activity chunk 97
         //1) t = 1 change element at index i to u
         //2) t = 2 print the sum of elements in range [l,r]
         cin >> t;
